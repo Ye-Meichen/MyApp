@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         Button btn = findViewById(R.id.btn1);
-       // btn.setOnClickListener(this);
+        btn.setOnClickListener(this);
         //btn.setOnClickListener(new View.OnClickListener() {
         //            @Override
         //            public void onClick(View v) {
@@ -43,11 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //
     //        //EditText inp = findViewById(R.id.inpText);
           String str = inp.getText().toString();
+          float s = Float.parseFloat(str);
+          float t = 9*s/5+32;
 
-          out.setText("Hello"+str);
+          out.setText("温度转换为："+t);
     }
-    public void btnClick(View btn) {
-        Log.i("click", "onClick");
-    }
+    //public void btnClick(View btn) {
+        //Log.i("click", "onClick");
+    //}
 
 }

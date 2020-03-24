@@ -2,4 +2,8 @@
     <string name="app_name">MyApp</string>
     <string name="btn_lable">BUTTON</string>
     <string name="hello">hello</string>
+    <string name="hint_txt">input your name</string>
+    <string name="hint_txt1">请输入摄氏温度</string>
+    <string name="btn_lable1">转换为华氏温度</string>
+    <string name="show_lable1">结果为：</string>
 </resources>
